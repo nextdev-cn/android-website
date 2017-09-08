@@ -1,13 +1,133 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-<script type="text/javascript" charset="utf-8">
-  //检测浏览器语言
-currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
-if(!currentLang){//判断IE浏览器使用语言
-    currentLang = navigator.browserLanguage;
-}
-window.location.href="zh/mobile.html";
-</script>
-  </head>
-</html>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+	  NextApp——下载应用
+	</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+	
+  </head><body>
+    <div class="wrapper" >
+
+	  <div class="sq-box rock-box" >
+		<ul class="J_ajaxWrap" >
+
+
+		  <!--
+		  应用块格式:
+		  <li>
+		  <i class="">
+		  <img class="soft-ico" src="./donate_download_app_html/app_image/图标名.png">
+		  </i>
+		  <div class="app-txt">
+		  <b>
+		  软件名
+		  </b>
+		  <p name="appDesc">软件简介</p>
+		  <span>分类 | 大小 M</span>
+		  </div>
+		  <a href="下载链接" class="new-btn-down new-btnBase">下载</a>
+		  </li>
+
+
+		  以下为空格式
+		  <li>
+		  <i class="">
+		  <img class="soft-ico" src="./donate_download_app_html/app_image/.png">
+		  </i>
+		  <div class="app-txt">
+		  <b>
+
+		  </b>
+		  <p name="appDesc"></p>
+		  <span> |  M</span>
+		  </div>
+		  <a href="" class="new-btn-down new-btnBase">下载</a>
+		  </li>
+
+
+		  其中，软件图标放在donate_download_app_html/app_image/下，图标后缀为.png,名称填在上面相应空处
+
+		  其中，重点推荐弄一个就好了，把下面那个改下就好
+		  最后，每日推荐那添加其他应用块，有两个例子
+		  -->
+
+		  <div class="hd" ><em>团队项目</em></div>
+		  <div id="group" class="app-list-onerow icon-one">
+			<ul >
+			  <li v-for="work in datas">
+				<i class="">
+				  <img class="soft-ico" :src="work.pic">
+				</i>
+				<div class="app-txt">
+				  <b>
+					{{ work.name }}
+				  </b>
+				  <p name="appDesc">{{ work.message }}
+				  </p>
+				  <span>{{work.type}} | {{work.owner}}</span>
+				</div>
+				<a :href="work.href" class="new-btn-down new-btnBase">下载</a>
+			  </li>
+
+			</ul>
+		  </div>
+		  <div class="hd"><em>个人佳作</em></div>
+		  <div id="personal" class="app-list-onerow icon-one">
+			<ul>
+			  <li v-for="work in datas">
+				<i class="">
+				  <img class="soft-ico" :src="work.pic">
+				</i>
+				<div class="app-txt">
+				  <b>
+					{{ work.name }}
+				  </b>
+				  <p name="appDesc">{{ work.message }}
+				  </p>
+				  <span>{{work.type}} | {{work.owner}}</span>
+				</div>
+				<a :href="work.href" class="new-btn-down new-btnBase">下载</a>
+			  </li>
+			</ul>
+		  </div>
+
+		  <div class="hd"><em>抢先体验</em></div>
+		  <div id="testing" class="app-list-onerow icon-one">
+			<ul>
+			  <li v-for="work in datas">
+				<i class="">
+				  <img class="soft-ico" :src="work.pic">
+				</i>
+				<div class="app-txt">
+				  <b>
+					{{ work.name }}
+				  </b>
+				  <p name="appDesc">{{ work.message }}
+				  </p>
+				  <span>{{work.type}} | {{work.owner}}</span>
+				</div>
+				<a :href="work.href" class="new-btn-down new-btnBase">下载</a>
+			  </li>
+			</ul>
+		  </div>
+
+		</ul>
+	  </div>
+
+
+	  <div class="anva"><a>&copy;Nextdev 2015-2017 All rights reserved. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+    </div>
+	
+	<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+	
+	
+	
+  </body>
+	
+  </html>

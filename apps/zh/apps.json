@@ -1,0 +1,64 @@
+{
+   "group": [
+      {
+         "name": "MCPE+",
+         "message": "片里字间寻拓展，共同创载游世界",
+         "type": "游戏辅助",
+         "owner": "MCPE+开发组",
+         "pic": "https://i.loli.net/2017/09/08/59b2244518afc.png",
+         "href": "http://mcpeplus.nextdev.cn"
+      }
+   ],
+   "personal": [
+      {
+         "name": "Moddedpe",
+         "message": "启动minecraftPE，加载Nmod及更多！",
+         "type": "游戏辅助",
+         "owner": "Modelpart",
+         "pic": "https://i.loli.net/2017/09/08/59b2208158ea3.png",
+         "href": "https://www.coolapk.com/game/org.mcal.moddedpe_new"
+      },
+      {
+         "name": "C-Mole",
+         "message": "让你的书桌同时放下元素周期表和你的作业。",
+         "type": "实用工具",
+         "owner": "银河955",
+         "pic": "https://i.loli.net/2017/09/08/59b22133d26e5.png",
+         "href": "https://www.coolapk.com/apk/com.galaxy.xdfzzl"
+      },
+      {
+         "name": "CoverScreen",
+         "message": "刷屏，不再鲁",
+         "type": "实用工具",
+         "owner": "银河955",
+         "pic": "https://i.loli.net/2017/09/08/59b221ffe5ce7.png",
+         "href": "https://www.coolapk.com/apk/com.galaxy.coverscreen"
+      },
+      {
+         "name": "Bompass",
+         "message": "我们不做别的，只为你指明方向。",
+         "type": "实用工具",
+         "owner": "小肥猫678",
+         "pic": "https://ooo.0o0.ooo/2017/09/08/59b22273032de.png",
+         "href": "https://www.coolapk.com/apk/com.dxr.compass"
+      },
+      {
+         "name": "AsmmsLite",
+         "message": "1mb占用解决图片上传问题",
+         "type": "实用工具",
+         "owner": "仲孙星河",
+         "pic": "https://i.loli.net/2017/09/08/59b222d97ca02.png",
+         "href": "https://www.coolapk.com/apk/me.zsxh.asmms.lite"
+      }
+   ],
+   "testing": [
+      {
+         "name": "Asmms",
+         "message": "不仅是图床，更是你的共享相册",
+         "type": "实用工具",
+         "owner": "仲孙星河",
+         "pic": "https://i.loli.net/2017/09/08/59b222d97ca02.png",
+         "href": "https://git.oschina.net/zs-river/Asmms"
+      }
+   ]
+}
